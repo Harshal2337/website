@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="style 1.css">
+</head>
+
+<body>
+
+    <form class="signup_form" name="form" action="event.html" method="post" onSubmit="return validated()">
+        <div class="container"></div>
+        <h1>Sign Up</h1>
+        <div class="name">Username</div>
+        <input autocomplete="off" type="text" id="name" name="name"><br>
+        <div id="name_error">Please enter your Username (min length 5)</div>
+        <div class="email">Email</div>
+        <input autocomplete="off" type="text" id="email" name="email" placeholder="example@abc.com"><br>
+        <div id="email_error">Please enter your Email</div>
+        <div class="pass">Password</div>
+        <input type="password" id="password" name="password"><br>
+        <div id="pass_error">Please enter your Password (min length 8)</div>
+        <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
